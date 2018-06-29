@@ -1,3 +1,26 @@
 body {
   background-color: lightgrey;
 }
+
+body main {
+  width: 400px;
+  /* height: 400px; */
+  max-width: 400px;
+  /* max-height: 400px; */
+  margin: auto;
+}
+
+body main h1 {
+  text-align: center;
+  padding: 2em;
+}
+
+body main table tbody {
+  border: 15px solid #32383e;
+}
+
+body main table tbody tr td {
+  width: 100px;
+  height: 100px;
+  border: 15px solid #32383e;
+}
